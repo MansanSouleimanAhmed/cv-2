@@ -6,7 +6,8 @@ export default function Contact(props) {
             initial={"out"}
             animate={"in"}
             exit={"out"}
-            variants={props.transtion}>
+            variants={props.transtion}
+            className={"contact"}>
             <strong>
                 <p>{"Name :"}</p>
             </strong>
@@ -19,11 +20,19 @@ export default function Contact(props) {
                 <p>{"Github account:"}</p>
             </strong>
 
-            <p>{"https://github.com/MansanSouleimanAhmed"}</p>
+            <a
+                href={"https://github.com/MansanSouleimanAhmed"}
+                target={"_blank"}>
+                <p>{"https://github.com/MansanSouleimanAhmed"}</p>
+            </a>
             <strong>
                 <p>{"Linkedin account:"}</p>
             </strong>
-            <p>{"https://www.linkedin.com/in/mansan-souleiman-ahmed/"}</p>
+            <a
+                href={"https://www.linkedin.com/in/mansan-souleiman-ahmed/"}
+                target={"_blank"}>
+                <p>{"https://www.linkedin.com/in/mansan-souleiman-ahmed/"}</p>
+            </a>
             <strong>
                 <p>{"Phone number :"}</p>
             </strong>
