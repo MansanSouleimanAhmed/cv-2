@@ -20,9 +20,13 @@
   },
   "homepage": "https://github.com/mansan1souleiman1ahmed/CV#readme",
   "dependencies": {
-    "react": "^16.11.0",
+    "framer-motion": "^1.11.1",
+    "react": "^16.13.1",
     "react-dom": "^16.11.0",
-    "react-mdl": "^1.11.0"
+    "react-mdl": "^1.11.0",
+    "react-motion": "^0.5.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@becode/eslint-config": "^0.8.1",
